@@ -7,3 +7,19 @@
 .icon-st{
     font-family: 'Roboto Slab', serif;
 }
+.navbar-fn li a{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-hover:hover{
+    color: #f44336 !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #f44336;
+}
+.nav-link:hover {
+    color: #f44336;
+}
+.navbar-nav {
+    --bs-nav-link-color: #001c55;
+    --bs-nav-link-hover-color: #001c55;
+}
