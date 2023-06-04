@@ -26,9 +26,10 @@
     <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
-    <!-- header -->
+    <!-- header start-->
     <header class="container-fluid px-0 bg-gray-200">
-        <div class="container px-0">
+      <!-- 1st section -->
+        <section class="container px-0">
           <nav class="navbar navbar-expand-lg">
             <div class="container-fluid px-0">
               <a class="navbar-brand icon-st fs-3 fw-bold" href="#"><span class="text-danger">Influ</span><span class="text-gray-800">encer</span></a>
@@ -36,47 +37,133 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
-                <ul class="navbar-nav navbar-fn fw-bold">
+                <ul class="navbar-nav navbar-fn fw-bold align-items-center">
                   <li class="nav-item">
-                    <a class="nav-link text-primary nav-hover" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-primary nav-hover pe-4" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-primary nav-hover" href="#">About</a>
+                    <a class="nav-link text-primary nav-hover pe-4" href="#">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-primary nav-hover" href="#">Chapters</a>
+                    <a class="nav-link text-primary nav-hover pe-4" href="#">Chapters</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-primary nav-hover" href="#">Reviews</a>
+                    <a class="nav-link text-primary nav-hover pe-4" href="#">Reviews</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-primary nav-hover" href="#">Author</a>
+                    <a class="nav-link text-primary nav-hover pe-4" href="#">Author</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-primary nav-hover" href="#">Blog</a>
+                    <a class="nav-link text-primary nav-hover pe-4" href="#">Blog</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-primary nav-hover" href="#">Contact</a>
+                    <a class="nav-link text-primary nav-hover pe-4" href="#">Contact</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle pe-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Pages
                     </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <ul class="dropdown-menu p-0 mt-2 sw-drop border-0">
+                      <li><a class="dropdown-item drop-it fw-medium py-3 px-4" href="#">BLOG</a></li>
+                      <li><a class="dropdown-item drop-it fw-medium py-3 px-4" href="#">BLOG SINGLE</a></li>
+                      <li><a class="dropdown-item drop-it fw-medium py-3 px-4" href="#">PURCHASE</a></li>
+                      <li><a class="dropdown-item drop-it fw-medium py-3 px-4" href="#">CONFIRMATION</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item border border-cyan-800 rounded-pill">
-                    <a class="nav-link text-cyan-800" href="#">PURCHASE NOW</a>
+                  <li class="nav-item ">
+                    <a class="nav-link border border-cyan-800 rounded-pill text-cyan-800 px-3 b-pill" href="#">PURCHASE NOW</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-        </div>
+        </section>
+        <!-- 2nd section -->
+        <section class="container p-0 hd-sec-2">
+          <div class="row h-100">
+            <div class="col-sm-6 mb-3 mb-sm-0 d-flex flex-column justify-content-center">
+              <div class="card border-0 bg-gray-200">
+                <div class="card-body p-0">
+                  <p class="geo-p text-danger fw-bold mb-1">George Stewart</p>
+                  <h2 class="geo-h text-primary">The Man in the Glass House</h2>
+                  <p class="geo-pslab"><span class="text-gray-800 fw-bold fs-5">Price &#58;&#45;</span> <span class="text-danger fw-bold fs-5">$14.99</span></p>
+                  <p class="text-gray-800 mb-4">We work with our partners to streamline project plans that don't just deliver on product perfection, but also delivers on time</p>
+                  <a href="#" class="btn btn-cyan-800 fs-6 fw-semibold geo-btn rounded-pill px-4 py-2">PURCHASE NOW&nbsp;&nbsp; <i class="bi bi-chevron-right fw-semibold"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 h-100">
+              <div class="card h-100 border-0 bg-gray-200">
+                <div class="card-body p-0 h-100 position-relative">
+                  <img class="h-100 position-absolute top-hs-2 end-hs-2" src="./assets/media/images/book.png" alt="book">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main>
+      <!-- 1st section -->
+      <section class="container px-0 ms-1st">
+        <div class="card mb-5 w-100 ms-1st-con border-0">
+          <div class="row g-0">
+            <div class="col-md-4 position-relative">
+              <img src="./assets/media/images/kindle.png" class="img-fluid rounded-start w-100" alt="kindle">
+              <span class="position-absolute top-ms-1 start-ms-1"><img class="ms-1st-img" src="./assets/media/images/book_page.png" alt="book-page"></span>
+            </div>
+            <div class="col-md-8 d-flex justify-content-center align-items-center">
+              <div class="card-body cb-ms-1st">
+                <h2 class="card-title text-primary geo-pslab fw-bold mb-3">Look Inside the book</h2>
+                <p class="card-text text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, dicta!</p>
+                <p class="card-text text-gray-800 mb-4">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, dicta!</p>
+                <div class="card mb-5 border-0 ms-1st-li">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item py-3 text-primary fw-bold"><i class="bi bi-check2 text-danger"></i>&nbsp;&nbsp;&nbsp;7 Chapter</li>
+                    <li class="list-group-item py-3 text-primary fw-bold"><i class="bi bi-check2 text-danger"></i>&nbsp;&nbsp;&nbsp;Explained Details</li>
+                    <li class="list-group-item py-3 text-primary fw-bold"><i class="bi bi-check2 text-danger"></i>&nbsp;&nbsp;&nbsp;Clear Understanding</li>
+                    <li class="list-group-item py-3 text-primary fw-bold"><i class="bi bi-check2 text-danger"></i>&nbsp;&nbsp;&nbsp;Best Practices</li>
+                  </ul>
+                </div>
+                <a href="#" class="btn btn-danger text-light fs-6 fw-semibold geo-btn rounded-pill px-4 py-2">PURCHASE ON AMAZON</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card text-center"> 
+              <div class="card-body px-4 py-5">
+                <i class="bi bi-mic text-danger"></i>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center">
+              <div class="card-body px-4 py-5">
+                <i class="bi bi-rocket text-success"></i>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center">
+              <div class="card-body px-4 py-5">
+                <i class="bi bi-envelope text-warning"></i>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- main end -->
 
 
 

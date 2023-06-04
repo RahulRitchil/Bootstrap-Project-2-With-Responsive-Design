@@ -4,10 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* header start */
+/* 1st section */
 .icon-st{
     font-family: 'Roboto Slab', serif;
 }
-.navbar-fn li a{
+.navbar-fn > li > a{
     font-family: 'Poppins', sans-serif;
 }
 .nav-hover:hover{
@@ -23,3 +25,70 @@
     --bs-nav-link-color: #001c55;
     --bs-nav-link-hover-color: #001c55;
 }
+.drop-it{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.813rem;
+}
+.b-pill{
+    padding: 0.75rem 0;
+}
+.b-pill:hover{
+    background-color: #f44336;
+    color: #ffffff !important;
+    border: 0.063rem solid #f44336 !important;
+}
+.sw-drop{
+    box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.25rem 0.75rem;
+}
+/* 2nd section */
+.hd-sec-2{
+    height: 80vh;
+}
+.geo-p{
+    font-family: 'Poppins', sans-serif;
+}
+.geo-h{
+    font-family: 'Roboto Slab', serif;
+    font-size: 4.063rem;
+    font-weight: 700;
+}
+.geo-pslab{
+    font-family: 'Roboto Slab', serif;
+}
+.geo-btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.813rem !important;
+}
+.end-hs-2 {
+    right: -0.625rem !important;
+}
+.top-hs-2 {
+    top: 5.313rem !important;
+}
+/* header end */
+
+/* main start */
+/* 1st section */
+.ms-1st{
+    height: 800px;
+}
+.ms-1st-con{
+    margin-top: 185px;
+}
+.ms-1st-img {
+    width: 98%;
+    height: 562px;
+}
+.start-ms-1 {
+    left: 53px !important;
+}
+.top-ms-1 {
+    top: 55px !important;
+}
+.cb-ms-1st{
+    padding: 0 4rem;
+}
+.ms-1st-li{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+/* main end */
