@@ -99,6 +99,13 @@
     padding: 5rem 23rem;
 }
 .ms-2nd-mb{
-    margin-bottom: 108px;
+    margin-bottom: 6.75rem;
+}
+/* 3rd section */
+.ms-3rd-card{
+    padding: 1.563rem 1.5rem 2.25rem 1.5rem !important;
+}
+.ms-3rd-mb{
+    margin-bottom: 8.4rem;
 }
 /* main end */
