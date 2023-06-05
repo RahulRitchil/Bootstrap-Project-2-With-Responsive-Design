@@ -108,4 +108,26 @@
 .ms-3rd-mb{
     margin-bottom: 8.4rem;
 }
+/* 4th section */
+.ms-4th-h{
+    height: 200px;
+    background-color: #f44336;
+}
+.ms-4th-top{
+    top: 78% !important;
+}
+.fs-7{
+    font-size: 14px;
+}
+.lh-own{
+    line-height: 28px;
+}
+.p-own{
+    padding: 32px 0 25px 0;
+}
+/* 5th section */
+.back-bg{
+    width: 100%;
+    height: 400px;
+}
 /* main end */
