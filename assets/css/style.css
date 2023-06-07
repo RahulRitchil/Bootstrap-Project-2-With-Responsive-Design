@@ -95,9 +95,6 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0rem 0.625rem 2.25rem 0rem, rgba(0, 0, 0, 0.06) 0rem 0rem 0rem 0.063rem;
 }
 /* 2nd section */
-.ms-2nd-card{
-    padding: 5rem 23rem;
-}
 .ms-2nd-mb{
     margin-bottom: 6.75rem;
 }
@@ -110,24 +107,23 @@
 }
 /* 4th section */
 .ms-4th-h{
-    height: 200px;
-    background-color: #f44336;
+    height: 25.25rem;
 }
 .ms-4th-top{
-    top: 78% !important;
+    top: 67% !important;
 }
 .fs-7{
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .lh-own{
-    line-height: 28px;
+    line-height: 1.75rem;
 }
 .p-own{
-    padding: 32px 0 25px 0;
+    padding: 2rem 0 1.563rem 0;
 }
 /* 5th section */
 .back-bg{
     width: 100%;
-    height: 400px;
+    height: 15.625rem;
 }
 /* main end */
