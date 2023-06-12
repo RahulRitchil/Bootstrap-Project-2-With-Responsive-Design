@@ -10,7 +10,8 @@ $custom-theme-colors:(
     "gray-800": #343a40,
     "cyan-800": #2a6f97,
     "gray-200": #e9ecef,
-    "gray-100": #8a817c
+    "gray-100": #8a817c,
+    "orange-100": #FFE0CC
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
