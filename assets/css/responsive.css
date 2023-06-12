@@ -1,0 +1,41 @@
+/* XX-Small devices (portrait phones, less than 376px) */
+@media (max-width: 376px){
+    .rs-hd-1st{
+        padding: 15px 25px 0px 25px !important;
+    }
+    .rs-nav{
+        display: none;
+    }
+    .rs-hd-2nd{
+        display:none;
+    }
+    .rs-h-2nd{
+        height: 100% !important;
+        padding: 0 25px;
+    }
+    .geo-h {
+        font-size: 2.063rem;
+    }
+    .hd-sec-2 {
+        height: 50vh;
+    }
+    .rs-ms-1{
+        display: none;
+    }
+    .ms-1st-con {
+        margin-top: 3.563rem;
+    }
+    .rs-ms1-btn{
+        display: block;
+        text-align: center;
+    }
+    .ms-1st {
+        height: auto;
+    }
+    .rounded-4 {
+        border-radius: 0px !important;
+    }
+    .rs-ms-2{
+        width: 100% !important;
+    }
+}
