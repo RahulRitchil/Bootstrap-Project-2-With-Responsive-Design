@@ -33,9 +33,25 @@
         height: auto;
     }
     .rounded-4 {
-        border-radius: 0px !important;
+        border-radius: 0rem !important;
     }
     .rs-ms-2{
         width: 100% !important;
+    }
+    .rs-ms-3{
+        text-align: center;
+        padding: 0 1.5rem !important;
+    }
+    .rs-ms-3m{
+        margin-top: 1.5rem !important;
+    }
+    .rs-ms-4w{
+        width: 100% !important;
+    }
+    .ms-4th-h {
+        padding-bottom: 3rem !important;
+    }
+    .ms-4-bg::before {
+        height: 12%;
     }
 }
